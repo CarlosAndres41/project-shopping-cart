@@ -41,3 +41,9 @@ ul {
 }
 
 /* Navbar End */
+
+/* Main content Start */
+.main-image {
+    max-width: 100%;
+}
+/* Main content End */
