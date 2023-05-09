@@ -2,6 +2,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Deals from './components/Deals';
+import Products from './components/Products';
 import Footer from './components/Footer';
 
 function Shop() {
@@ -9,6 +10,7 @@ function Shop() {
         <div className='shop'>
             <Navbar />
             <Deals />
+            <Products />
             <Footer />
         </div>
     );
