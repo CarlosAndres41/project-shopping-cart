@@ -1,8 +1,10 @@
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
     return (
         <footer>
             <div className='footer-content'>
-                <span> &copy; 2021, Carlos Castañeda</span>
+                <span> &copy; {currentYear}, Carlos Castañeda</span>
                 <svg
                     className='footer-icon'
                     width='20px'
