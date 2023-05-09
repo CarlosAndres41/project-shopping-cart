@@ -7,7 +7,7 @@ const MainContent = () => {
                     euismod nisi porta lorem mollis aliquam ut porttitor leo a
                     diam sollicitudin tempor
                 </p>
-                <a href='/shop' className='btn'>
+                <a href='/shop' className='start-btn'>
                     Start Shopping
                 </a>
             </div>
