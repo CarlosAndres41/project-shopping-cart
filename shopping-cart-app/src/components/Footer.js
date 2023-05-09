@@ -4,6 +4,7 @@ const Footer = () => {
             <div className='footer-content'>
                 <span> &copy; 2021, Carlos Castañeda</span>
                 <svg
+                    className='footer-icon'
                     width='20px'
                     height='20px'
                     viewBox='0 0 20 20'

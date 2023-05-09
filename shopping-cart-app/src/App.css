@@ -2,6 +2,14 @@
     font-size: 18px;
 }
 
+/* Home start */
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Home End */
+
 /* Navbar Start */
 .navbar {
     display: flex;
@@ -37,14 +45,26 @@ ul {
 .svg-icon-sm {
     width: 2rem;
     height: 2rem;
-    fill: rgba(0, 0, 0, 0.2);
+}
+
+.svg-icon-sm path {
+    stroke: rgba(0, 0, 0, 0.4);
 }
 
 /* Navbar End */
 
 /* Main content Start */
+.main-content {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
 .main-image {
     max-width: 100%;
+}
+.left-content {
+    padding-right: 1rem;
 }
 
 /* Main content End */
@@ -70,6 +90,24 @@ ul {
     text-align: center;
 }
 /* Services End */
+
+/* Footer Start */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#Dribbble-Light-Preview {
+    fill: white;
+}
+/* Footer End */
 
 @media screen and (min-width: 600px) {
     .main-content {
