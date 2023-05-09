@@ -23,14 +23,24 @@ const Navbar = () => {
                             />
                         </svg>
                     </li>
-                    <li>eCommerce</li>
+                    <li>
+                        <a href='/'>
+                            <h1>eCommerce</h1>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div className='links'>
                 <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>Brand</li>
+                    <li>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li>
+                        <a href='/shop'>Shop</a>
+                    </li>
+                    <li>
+                        <a href='/brand'>Brand</a>
+                    </li>
                 </ul>
             </div>
             <div className='login'>
