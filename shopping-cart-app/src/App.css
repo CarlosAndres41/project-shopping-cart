@@ -46,4 +46,12 @@ ul {
 .main-image {
     max-width: 100%;
 }
+
 /* Main content End */
+
+@media screen and (min-width: 600px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
