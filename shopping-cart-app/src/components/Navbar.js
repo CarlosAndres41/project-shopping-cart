@@ -37,8 +37,7 @@ const Navbar = () => {
                 <ul>
                     <li>
                         <svg
-                            width='80px'
-                            height='80px'
+                            className='svg-icon-sm'
                             viewBox='0 0 24 24'
                             fill='none'
                             xmlns='http://www.w3.org/2000/svg'
@@ -63,8 +62,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <svg
-                            width='80px'
-                            height='80px'
+                            className='svg-icon-sm'
                             viewBox='0 0 24 24'
                             fill='none'
                             xmlns='http://www.w3.org/2000/svg'
