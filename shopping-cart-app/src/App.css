@@ -67,7 +67,8 @@ ul {
     padding-right: 1rem;
 }
 
-.start-btn {
+.start-btn,
+.deals-btn {
     background-color: #4caf50;
     border: none;
     color: white;
@@ -81,7 +82,8 @@ ul {
     border-radius: 5px;
 }
 
-.start-btn:hover {
+.start-btn:hover,
+.deals-btn:hover {
     background-color: #3e8e41;
 }
 /* Main content End */
@@ -125,6 +127,32 @@ footer {
     fill: white;
 }
 /* Footer End */
+
+/* Deals Start */
+.deals {
+    height: 10rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+.deals-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.deals-right {
+    display: flex;
+    justify-content: end;
+}
+
+.deals-right img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    justify-self: end;
+}
+/* Deals End */
 
 @media screen and (min-width: 600px) {
     .main-content {
