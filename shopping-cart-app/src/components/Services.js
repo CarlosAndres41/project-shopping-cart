@@ -5,7 +5,9 @@ import React from 'react';
 const Services = () => {
     return (
         <div className='services'>
-            <div className='services-header'></div>
+            <div className='services-header'>
+                <h2>Millions of people use eCommerce</h2>
+            </div>
             <div className='services-icons'>
                 <div className='services-card'>
                     <svg
