@@ -49,6 +49,28 @@ ul {
 
 /* Main content End */
 
+/* Services Start */
+.services {
+    padding: 1rem;
+}
+
+.services-header {
+    text-align: center;
+}
+.services-header h2 {
+    font-weight: 200;
+}
+
+.services-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.services-card {
+    text-align: center;
+}
+/* Services End */
+
 @media screen and (min-width: 600px) {
     .main-content {
         display: grid;
