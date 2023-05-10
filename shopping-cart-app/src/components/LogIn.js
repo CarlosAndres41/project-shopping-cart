@@ -1,8 +1,13 @@
-// react fonm component
+import Icon from '@mdi/react';
+import { mdiClose } from '@mdi/js';
 
 const Form = (props) => {
     return (
         <div className={props.visible ? 'login-form show' : 'login-form'}>
+            <div className='login-head'>
+                <h1>Log In</h1>
+                <Icon path={mdiClose} size={1} />
+            </div>
             <form>
                 <div className='form-group'>
                     <label htmlFor='exampleInputEmail1'>Email address</label>
