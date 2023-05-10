@@ -1,8 +1,8 @@
 // react fonm component
 
-const Form = () => {
+const Form = (props) => {
     return (
-        <div className='login'>
+        <div className={props.visible ? 'login-form show' : 'login-form'}>
             <form>
                 <div className='form-group'>
                     <label htmlFor='exampleInputEmail1'>Email address</label>
