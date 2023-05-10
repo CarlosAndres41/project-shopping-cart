@@ -29,7 +29,7 @@ const Form = (props) => {
                         id='exampleInputPassword1'
                     />
                 </div>
-                <p>
+                <p className='register-link'>
                     Don't have an account? <a href='/register'>Register</a>
                 </p>
                 <button
