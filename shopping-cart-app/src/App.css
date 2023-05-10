@@ -68,7 +68,8 @@ ul {
 }
 
 .start-btn,
-.deals-btn {
+.deals-btn,
+.add-to-cart-btn {
     background-color: #4caf50;
     border: none;
     color: white;
@@ -186,11 +187,19 @@ footer {
 .product-info {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    align-items: center;
 }
 
 .title-price {
     display: flex;
+}
+
+.add-to-cart-btn {
+    background-color: rgb(86, 86, 253);
+}
+
+.add-to-cart-btn:hover {
+    background-color: blue;
 }
 /* Products End */
 
