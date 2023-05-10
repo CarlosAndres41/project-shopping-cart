@@ -4,6 +4,4 @@ const fetchProducts = async () => {
     return data;
 };
 
-const products = fetchProducts();
-
-export default products;
+export default fetchProducts;
