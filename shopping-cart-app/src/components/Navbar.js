@@ -105,7 +105,10 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <Form visible={isFormVisible} />
+            <Form
+                visible={isFormVisible}
+                handleFormVisibility={handleFormVisibility}
+            />
         </div>
     );
 };
