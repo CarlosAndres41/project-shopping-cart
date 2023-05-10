@@ -156,6 +156,9 @@ footer {
 /* Deals End */
 
 /* Products Start */
+.products {
+    padding: 1rem;
+}
 .shop-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -187,11 +190,13 @@ footer {
 .product-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
 }
 
 .title-price {
     display: flex;
+    gap: 1rem;
 }
 
 .add-to-cart-btn {
