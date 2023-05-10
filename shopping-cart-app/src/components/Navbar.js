@@ -1,6 +1,8 @@
 import Form from './LogIn';
+import { useState } from 'react';
 
 const Navbar = () => {
+    const [isFormVisible, setIsFormVisible] = useState(false);
     return (
         <div className='navbar'>
             <div className='logo'>
@@ -95,7 +97,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <Form />
+            {isFormVisible && <Form />}
         </div>
     );
 };
