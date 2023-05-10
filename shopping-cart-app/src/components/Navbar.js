@@ -1,3 +1,5 @@
+import Form from './LogIn';
+
 const Navbar = () => {
     return (
         <div className='navbar'>
@@ -93,6 +95,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+            <Form />
         </div>
     );
 };
