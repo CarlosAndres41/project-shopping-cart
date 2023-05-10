@@ -3,6 +3,11 @@ import { useState } from 'react';
 
 const Navbar = () => {
     const [isFormVisible, setIsFormVisible] = useState(false);
+
+    const handleFormVisibility = () => {
+        setIsFormVisible(!isFormVisible);
+    };
+
     return (
         <div className='navbar'>
             <div className='logo'>
@@ -50,7 +55,10 @@ const Navbar = () => {
                 </div>
                 <div className='login'>
                     <ul>
-                        <li>
+                        <li
+                            className='login-btn'
+                            onClick={handleFormVisibility}
+                        >
                             <svg
                                 className='svg-icon-sm'
                                 viewBox='0 0 24 24'
