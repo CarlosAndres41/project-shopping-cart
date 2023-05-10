@@ -6,7 +6,11 @@ const Form = (props) => {
         <div className={props.visible ? 'login-form show' : 'login-form'}>
             <div className='login-head'>
                 <h1>Log In</h1>
-                <Icon path={mdiClose} size={1} />
+                <Icon
+                    path={mdiClose}
+                    size={1}
+                    onClick={props.handleFormVisibility}
+                />
             </div>
             <form>
                 <div className='form-group'>
@@ -27,7 +31,11 @@ const Form = (props) => {
                 <p>
                     Don't have an account? <a href='/register'>Register</a>
                 </p>
-                <button type='submit' className='btn btn-primary'>
+                <button
+                    type='button'
+                    className='btn btn-primary'
+                    onClick={props.handleFormVisibility}
+                >
                     Log In
                 </button>
             </form>
