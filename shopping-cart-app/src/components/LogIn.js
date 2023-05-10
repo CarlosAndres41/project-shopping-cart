@@ -34,7 +34,7 @@ const Form = (props) => {
                 </p>
                 <button
                     type='button'
-                    className='btn btn-primary'
+                    className='login-btn'
                     onClick={props.handleFormVisibility}
                 >
                     Log In
