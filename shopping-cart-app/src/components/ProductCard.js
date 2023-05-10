@@ -14,9 +14,7 @@ const ProductCard = (props) => {
                     <h5>{title}</h5>
                     <h3>${price}</h3>
                 </div>
-                <a href='' className='add-to-cart-btn'>
-                    Add to cart
-                </a>
+                <button className='add-to-cart-btn'>Add to cart</button>
             </div>
         </div>
     );
