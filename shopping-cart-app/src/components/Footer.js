@@ -7,7 +7,7 @@ const Footer = () => {
                 <span> &copy; {currentYear}, Carlos Castañeda</span>
                 <svg
                     className='footer-icon'
-                    width='20px'
+                    strokeWidth='20px'
                     height='20px'
                     viewBox='0 0 20 20'
                     version='1.1'
@@ -16,9 +16,9 @@ const Footer = () => {
                     <g
                         id='Page-1'
                         stroke='none'
-                        stroke-width='1'
+                        strokeWidth='1'
                         fill='none'
-                        fill-rule='evenodd'
+                        fillRule='evenodd'
                     >
                         <g
                             id='Dribbble-Light-Preview'
