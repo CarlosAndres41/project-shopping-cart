@@ -154,6 +154,46 @@ footer {
 }
 /* Deals End */
 
+/* Products Start */
+.shop-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.product-card {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card:hover {
+    border: 1px solid black;
+}
+
+.product-image img {
+    width: 180px;
+    height: 180px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.title-price {
+    display: flex;
+}
+/* Products End */
+
 @media screen and (min-width: 600px) {
     .main-content {
         display: grid;
