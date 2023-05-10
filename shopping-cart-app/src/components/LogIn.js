@@ -7,6 +7,7 @@ const Form = (props) => {
             <div className='login-head'>
                 <h1>Log In</h1>
                 <Icon
+                    className='close-login-btn'
                     path={mdiClose}
                     size={1}
                     onClick={props.handleFormVisibility}
