@@ -11,10 +11,12 @@ const ProductCard = (props) => {
             </div>
             <div className='product-info'>
                 <div className='title-price'>
-                    <h4>{title}</h4>
+                    <h5>{title}</h5>
                     <h3>${price}</h3>
                 </div>
-                <h6>{category}</h6>
+                <a href='' className='add-to-cart-btn'>
+                    Add to cart
+                </a>
             </div>
         </div>
     );
