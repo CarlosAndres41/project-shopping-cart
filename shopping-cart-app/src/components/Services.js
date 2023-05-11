@@ -18,29 +18,29 @@ const Services = () => {
                         id='shipping'
                         data-name='Flat Line'
                         xmlns='http://www.w3.org/2000/svg'
-                        class='icon flat-line'
+                        className='icon flat-line'
                     >
                         <path
                             id='secondary'
                             d='M16,6v9a2,2,0,0,0-2,2H10a2,2,0,0,0-4,0H4a1,1,0,0,1-1-1V6A1,1,0,0,1,4,5H15A1,1,0,0,1,16,6Z'
-                            // style='fill: rgb(44, 169, 188); stroke-width: 2;'
+                            // style='fill: rgb(44, 169, 188); strokeWidth: 2;'
                         ></path>
                         <path
                             id='primary'
                             d='M16,15V6a1,1,0,0,0-1-1H4A1,1,0,0,0,3,6V16a1,1,0,0,0,1,1H6'
-                            // style='fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'
+                            // style='fill: none; stroke: rgb(0, 0, 0); strokeLinecap: round; strokeLinejoin: round; strokeWidth: 2;'
                         ></path>
                         <path
                             id='primary-2'
                             data-name='primary'
                             d='M18,17h2a1,1,0,0,0,1-1V12L19.28,8.55a1,1,0,0,0-.9-.55H16'
-                            // style='fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'
+                            // style='fill: none; stroke: rgb(0, 0, 0); strokeLinecap: round; strokeLinejoin: round; strokeWidth: 2;'
                         ></path>
                         <path
                             id='primary-3'
                             data-name='primary'
                             d='M14,17H10M8,15a2,2,0,1,0,2,2A2,2,0,0,0,8,15Zm10,2a2,2,0,1,1-2-2A2,2,0,0,1,18,17Z'
-                            // style='fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'
+                            // style='fill: none; stroke: rgb(0, 0, 0); strokeLinecap: round; strokeLinejoin: round; strokeWidth: 2;'
                         ></path>
                     </svg>
                     <h5>Free Shipping</h5>
@@ -70,38 +70,38 @@ const Services = () => {
                             <path
                                 d='M9.5 13.7502C9.5 14.7202 10.25 15.5002 11.17 15.5002H13.05C13.85 15.5002 14.5 14.8202 14.5 13.9702C14.5 13.0602 14.1 12.7302 13.51 12.5202L10.5 11.4702C9.91 11.2602 9.51001 10.9402 9.51001 10.0202C9.51001 9.18023 10.16 8.49023 10.96 8.49023H12.84C13.76 8.49023 14.51 9.27023 14.51 10.2402'
                                 stroke='#292D32'
-                                stroke-width='1.5'
-                                stroke-linecap='round'
-                                stroke-linejoin='round'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
                             />
                             <path
                                 d='M12 7.5V16.5'
                                 stroke='#292D32'
-                                stroke-width='1.5'
-                                stroke-linecap='round'
-                                stroke-linejoin='round'
+                                strokeWidth='1.5'
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
                             />
                         </g>
                         <path
                             d='M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2'
                             stroke='#292D32'
-                            stroke-width='1.5'
-                            stroke-linecap='round'
-                            stroke-linejoin='round'
+                            strokeWidth='1.5'
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
                         />
                         <path
                             d='M17 3V7H21'
                             stroke='#292D32'
-                            stroke-width='1.5'
-                            stroke-linecap='round'
-                            stroke-linejoin='round'
+                            strokeWidth='1.5'
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
                         />
                         <path
                             d='M22 2L17 7'
                             stroke='#292D32'
-                            stroke-width='1.5'
-                            stroke-linecap='round'
-                            stroke-linejoin='round'
+                            strokeWidth='1.5'
+                            strokeLinecap='round'
+                            strokeLinejoin='round'
                         />
                     </svg>
                     <h5>100% Money Back Guarantee</h5>
