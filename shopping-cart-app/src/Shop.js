@@ -11,11 +11,18 @@ function Shop() {
     const [cartTotal, setCartTotal] = useState(0);
     const [cartQuantity, setCartQuantity] = useState(0);
 
+    const addToCart = (product) => {
+        const newCartProducts = [...cartProducts, product];
+        setCartProducts(newCartProducts);
+        setCartTotal(cartTotal + product.price);
+        setCartQuantity(cartQuantity + 1);
+    };
+
     return (
         <div className='shop'>
             <Navbar />
             <Deals />
-            <Products />
+            <Products addToCart={addToCart} cartQuantity={cartQuantity} />
             <Footer />
         </div>
     );
