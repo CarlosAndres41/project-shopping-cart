@@ -20,14 +20,13 @@ function Shop() {
 
     return (
         <div className='shop'>
-            <Navbar />
-            <Deals />
-            <Products
-                addToCart={addToCart}
+            <Navbar
                 cartQuantity={cartQuantity}
                 cartProducts={cartProducts}
                 cartTotal={cartTotal}
             />
+            <Deals />
+            <Products addToCart={addToCart} />
             <Footer />
         </div>
     );
