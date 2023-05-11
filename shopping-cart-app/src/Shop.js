@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Deals from './components/Deals';
 import Products from './components/Products';
 import Footer from './components/Footer';
+import NavContext from './components/NavContext';
 import { useState } from 'react';
 
 function Shop() {
@@ -18,13 +19,18 @@ function Shop() {
         setCartQuantity(cartQuantity + 1);
     };
 
+    const NavProps = {
+        cartQuantity: { cartQuantity },
+        cartProducts: { cartProducts },
+        cartTotal: { cartTotal },
+    };
+
     return (
         <div className='shop'>
-            <Navbar
-                cartQuantity={cartQuantity}
-                cartProducts={cartProducts}
-                cartTotal={cartTotal}
-            />
+            <NavContext.Provider value={NavProps}>
+                <Navbar />
+            </NavContext.Provider>
+
             <Deals />
             <Products addToCart={addToCart} />
             <Footer />
