@@ -22,7 +22,12 @@ function Shop() {
         <div className='shop'>
             <Navbar />
             <Deals />
-            <Products addToCart={addToCart} cartQuantity={cartQuantity} />
+            <Products
+                addToCart={addToCart}
+                cartQuantity={cartQuantity}
+                cartProducts={cartProducts}
+                cartTotal={cartTotal}
+            />
             <Footer />
         </div>
     );
