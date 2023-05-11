@@ -113,6 +113,10 @@ input {
     flex-direction: column;
 }
 
+.empty-cart {
+    padding: 1rem;
+}
+
 /* Navbar End */
 
 /* Main content Start */
@@ -132,7 +136,8 @@ input {
 .start-btn,
 .deals-btn,
 .add-to-cart-btn,
-.login-confirm-btn {
+.login-confirm-btn,
+.continue-shopping-btn {
     background-color: #4caf50;
     border: none;
     color: white;
