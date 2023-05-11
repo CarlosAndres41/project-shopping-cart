@@ -11,8 +11,6 @@ const Products = (props) => {
                         key={product.id}
                         product={product}
                         addToCart={props.addToCart}
-                        removeFromCart={props.removeFromCart}
-                        cart={props.addToCart}
                     />
                 ))}
             </div>
