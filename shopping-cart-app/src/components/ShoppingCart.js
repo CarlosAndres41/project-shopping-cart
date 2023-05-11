@@ -1,6 +1,8 @@
 import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
 
+import EmptyCart from './EmptyCart';
+
 const ShoppingCart = (props) => {
     let quantity = props.cart.cartQuantity;
     let total = props.cart.cartTotal;
@@ -19,7 +21,7 @@ const ShoppingCart = (props) => {
             </div>
             <div className='cart-body'>
                 {quantity === 0 ? (
-                    <h2>Your cart is empty</h2>
+                    <EmptyCart />
                 ) : (
                     <h2>You have {quantity} products in your cart</h2>
                 )}
