@@ -118,7 +118,7 @@ const Navbar = (props) => {
             <ShoppingCart
                 visible={isCartVisible}
                 handleCartVisibility={handleCartVisibility}
-                props={props}
+                cart={props}
             />
         </div>
     );
