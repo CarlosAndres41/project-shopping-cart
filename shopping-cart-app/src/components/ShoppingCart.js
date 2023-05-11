@@ -7,10 +7,10 @@ const ShoppingCart = (props) => {
             <div className='cart-head'>
                 <h1>Your Cart</h1>
                 <Icon
-                    className='close-login-btn'
+                    className='close-cart-btn'
                     path={mdiClose}
                     size={1}
-                    onClick={props.handleFormVisibility}
+                    onClick={props.handleCartVisibility}
                 />
             </div>
         </div>
