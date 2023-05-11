@@ -1,11 +1,17 @@
 import Form from './LogIn';
+import ShoppingCart from './ShoppingCart';
 import { useState } from 'react';
 
 const Navbar = () => {
     const [isFormVisible, setIsFormVisible] = useState(false);
+    const [isCartVisible, setIsCartVisible] = useState(false);
 
     const handleFormVisibility = () => {
         setIsFormVisible(!isFormVisible);
+    };
+
+    const handleCartVisibility = () => {
+        setIsCartVisible(!isCartVisible);
     };
 
     return (
@@ -83,7 +89,7 @@ const Navbar = () => {
                                 />
                             </svg>
                         </li>
-                        <li>
+                        <li className='cart-btn' onClick={handleCartVisibility}>
                             <svg
                                 className='svg-icon-sm'
                                 viewBox='0 0 24 24'
@@ -108,6 +114,10 @@ const Navbar = () => {
             <Form
                 visible={isFormVisible}
                 handleFormVisibility={handleFormVisibility}
+            />
+            <ShoppingCart
+                visible={isCartVisible}
+                handleCartVisibility={handleCartVisibility}
             />
         </div>
     );
