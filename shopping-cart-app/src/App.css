@@ -54,7 +54,8 @@ ul {
 
 .login-btn,
 .close-login-btn,
-.close-cart-btn {
+.close-cart-btn,
+.cart-btn {
     cursor: pointer;
 }
 
