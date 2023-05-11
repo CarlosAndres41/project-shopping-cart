@@ -1,13 +1,10 @@
 import Form from './LogIn';
 import ShoppingCart from './ShoppingCart';
-import NavContext from './NavContext';
-import { useContext, useState } from 'react';
+import { useState } from 'react';
 
 const Navbar = (props) => {
     const [isFormVisible, setIsFormVisible] = useState(false);
     const [isCartVisible, setIsCartVisible] = useState(false);
-
-    const { quantity, products, total } = useContext(NavContext);
 
     const handleFormVisibility = () => {
         setIsFormVisible(!isFormVisible);
@@ -121,9 +118,7 @@ const Navbar = (props) => {
             <ShoppingCart
                 visible={isCartVisible}
                 handleCartVisibility={handleCartVisibility}
-                quantity={quantity}
-                products={products}
-                total={total}
+                cart={props}
             />
         </div>
     );
