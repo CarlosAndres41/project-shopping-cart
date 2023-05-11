@@ -53,11 +53,13 @@ ul {
 }
 
 .login-btn,
-.close-login-btn {
+.close-login-btn,
+.close-cart-btn {
     cursor: pointer;
 }
 
-.login-form {
+.login-form,
+.cart {
     position: fixed;
     top: 0;
     right: -400px; /* move the form outside of the screen */
@@ -67,11 +69,13 @@ ul {
     transition: transform 0.3s ease-in-out;
 }
 
-.login-form.show {
+.login-form.show,
+.cart.show {
     transform: translateX(-400px); /* move the form to the left */
 }
 
-.login-head {
+.login-head,
+.cart-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
