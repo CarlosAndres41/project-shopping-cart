@@ -2,6 +2,8 @@ import Form from './LogIn';
 import ShoppingCart from './ShoppingCart';
 import { useState } from 'react';
 
+import { Link } from 'react-router-dom';
+
 const Navbar = (props) => {
     const [isFormVisible, setIsFormVisible] = useState(false);
     const [isCartVisible, setIsCartVisible] = useState(false);
@@ -49,13 +51,16 @@ const Navbar = (props) => {
                 <div className='links'>
                     <ul>
                         <li>
-                            <a href='/'>Home</a>
+                            {/* <a href='/'>Home</a> */}
+                            <Link to='/'>Home</Link>
                         </li>
                         <li>
-                            <a href='/shop'>Shop</a>
+                            {/* <a href='/shop'>Shop</a> */}
+                            <Link to='/shop'>Shop</Link>
                         </li>
                         <li>
-                            <a href='/brand'>Brand</a>
+                            {/* <a href='/brand'>Brand</a> */}
+                            <Link to='/brand'>Brand</Link>
                         </li>
                     </ul>
                 </div>
