@@ -2,6 +2,7 @@ import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
 
 import EmptyCart from './EmptyCart';
+import CartItem from './CartItem';
 
 const ShoppingCart = (props) => {
     let quantity = props.cart.cartQuantity;
@@ -23,7 +24,12 @@ const ShoppingCart = (props) => {
                 {quantity === 0 ? (
                     <EmptyCart />
                 ) : (
-                    <h2>You have {quantity} products in your cart</h2>
+                    <div className='cart-items'>
+                        <h2>You have {quantity} products in your cart</h2>
+                        {products.map((product) => (
+                            <CartItem key={product.id} product={product} />
+                        ))}
+                    </div>
                 )}
             </div>
         </div>
