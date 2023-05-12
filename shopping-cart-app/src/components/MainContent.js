@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const MainContent = () => {
     return (
         <div className='main-content'>
@@ -7,9 +9,9 @@ const MainContent = () => {
                     euismod nisi porta lorem mollis aliquam ut porttitor leo a
                     diam sollicitudin tempor
                 </p>
-                <a href='/shop' className='start-btn'>
+                <Link to='/shop' className='start-btn'>
                     Start Shopping
-                </a>
+                </Link>
             </div>
             <div className='right-content'>
                 <img
