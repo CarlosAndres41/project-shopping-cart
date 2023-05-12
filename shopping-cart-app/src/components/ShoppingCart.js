@@ -27,7 +27,11 @@ const ShoppingCart = (props) => {
                     <div className='cart-items'>
                         <h2>You have {quantity} products in your cart</h2>
                         {products.map((product) => (
-                            <CartItem key={product.id} product={product} />
+                            <CartItem
+                                key={product.id}
+                                product={product}
+                                removeFromCart={props.cart.removeFromCart}
+                            />
                         ))}
                         <div className='cart-total'>
                             <h3>Total: ${total}</h3>
