@@ -9,7 +9,12 @@ const CartItem = (props) => {
             <div className='item-info'>
                 <p className='item-title'>{props.product.title}</p>
                 <p className='item-price'>${props.product.price}</p>
-                <span className='remove-item'>Remove from cart</span>
+                <span
+                    className='remove-item'
+                    onClick={() => props.removeFromCart(props.product)}
+                >
+                    Remove from cart
+                </span>
             </div>
         </div>
     );
