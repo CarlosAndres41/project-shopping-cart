@@ -2,7 +2,7 @@
   "name": "shopping-cart-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://CarlosAndres41.github.io/project-shopping-cart",
+  "homepage": "./",
   "dependencies": {
     "@mdi/js": "^7.2.96",
     "@mdi/react": "^1.6.1",
