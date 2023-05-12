@@ -113,7 +113,8 @@ input {
     flex-direction: column;
 }
 
-.empty-cart {
+.empty-cart,
+.cart-items {
     padding: 1rem;
 }
 
@@ -137,7 +138,8 @@ input {
 .deals-btn,
 .add-to-cart-btn,
 .login-confirm-btn,
-.continue-shopping-btn {
+.continue-shopping-btn,
+.checkout-btn {
     background-color: #4caf50;
     border: none;
     color: white;
