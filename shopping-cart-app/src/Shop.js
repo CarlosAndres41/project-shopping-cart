@@ -27,9 +27,13 @@ function Shop() {
 
     return (
         <div className='shop'>
-            <NavContext.Provider value={NavProps}>
-                <Navbar />
-            </NavContext.Provider>
+            {/* <NavContext.Provider value={NavProps}> */}
+            <Navbar
+                cartProducts={cartProducts}
+                cartTotal={cartTotal}
+                cartQuantity={cartQuantity}
+            />
+            {/* </NavContext.Provider> */}
 
             <Deals />
             <Products addToCart={addToCart} />
