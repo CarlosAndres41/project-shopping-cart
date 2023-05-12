@@ -29,6 +29,14 @@ const ShoppingCart = (props) => {
                         {products.map((product) => (
                             <CartItem key={product.id} product={product} />
                         ))}
+                        <div className='cart-total'>
+                            <h3>Total: ${total}</h3>
+                            <a href='/checkout'>
+                                <button className='checkout-btn'>
+                                    Proceed to Checkout
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 )}
             </div>
