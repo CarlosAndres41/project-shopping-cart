@@ -118,6 +118,10 @@ input {
     padding: 1rem;
 }
 
+.cart-full {
+    fill: rgb(0, 0, 255, 0.4);
+}
+
 /* Navbar End */
 
 /* Item Card Start */
