@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
 
 import { MyContextProvider } from './components/NavContext';
 
@@ -13,7 +13,7 @@ import Brand from './components/Brand';
 const RouteSwitch = () => {
     return (
         <MyContextProvider>
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/shop' element={<Shop />} />
@@ -22,7 +22,7 @@ const RouteSwitch = () => {
                     <Route path='/checkout' element={<Checkout />} />
                     <Route path='/brand' element={<Brand />} />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </MyContextProvider>
     );
 };
