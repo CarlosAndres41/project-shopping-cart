@@ -120,6 +120,43 @@ input {
 
 /* Navbar End */
 
+/* Item Card Start */
+.item-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.item-image {
+    height: 60px;
+    width: 60px;
+}
+
+.item-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.4rem;
+}
+
+.item-price {
+    font-weight: 800;
+    font-size: 0.5rem;
+    margin-right: auto;
+}
+
+.remove-item {
+    font-size: 0.5rem;
+    cursor: pointer;
+    color: blue;
+}
+/* Item Card End */
+
 /* Main content Start */
 .main-content {
     padding: 1rem;
