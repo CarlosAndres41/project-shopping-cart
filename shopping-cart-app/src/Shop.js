@@ -19,6 +19,15 @@ function Shop() {
         setCartQuantity(cartQuantity + 1);
     };
 
+    const removeFromCart = (product) => {
+        const newCartProducts = cartProducts.filter(
+            (cartProduct) => cartProduct !== product
+        );
+        setCartProducts(newCartProducts);
+        setCartTotal(cartTotal - product.price);
+        setCartQuantity(cartQuantity - 1);
+    };
+
     const NavProps = {
         cartQuantity: { cartQuantity },
         cartProducts: { cartProducts },
@@ -32,6 +41,7 @@ function Shop() {
                 cartProducts={cartProducts}
                 cartTotal={cartTotal}
                 cartQuantity={cartQuantity}
+                removeFromCart={removeFromCart}
             />
             {/* </NavContext.Provider> */}
 
