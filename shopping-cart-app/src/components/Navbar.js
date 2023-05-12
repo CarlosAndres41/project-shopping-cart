@@ -41,9 +41,9 @@ const Navbar = (props) => {
                         </svg>
                     </li>
                     <li>
-                        <a href='/'>
+                        <Link to='/'>
                             <h1>eCommerce</h1>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
