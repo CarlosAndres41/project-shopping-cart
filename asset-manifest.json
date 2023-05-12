@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/project-shopping-cart/static/css/main.61864684.css",
+    "main.js": "/project-shopping-cart/static/js/main.372d015a.js",
+    "static/media/deals.png": "/project-shopping-cart/static/media/deals.b75e0226410d4ae85a64.png",
+    "index.html": "/project-shopping-cart/index.html",
+    "main.61864684.css.map": "/project-shopping-cart/static/css/main.61864684.css.map",
+    "main.372d015a.js.map": "/project-shopping-cart/static/js/main.372d015a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61864684.css",
+    "static/js/main.372d015a.js"
+  ]
+}
