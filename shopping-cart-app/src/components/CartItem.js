@@ -6,8 +6,8 @@ const CartItem = (props) => {
                 alt='product'
                 className='item-image'
             ></img>
-            <p>{props.product.title}</p>
-            <p>${props.product.price}</p>
+            <p className='item-title'>{props.product.title}</p>
+            <p className='item-price'>${props.product.price}</p>
         </div>
     );
 };
