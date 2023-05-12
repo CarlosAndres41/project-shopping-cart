@@ -1,6 +1,8 @@
 import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
 
+import { Link } from 'react-router-dom';
+
 const Form = (props) => {
     return (
         <div className={props.visible ? 'login-form show' : 'login-form'}>
@@ -30,7 +32,7 @@ const Form = (props) => {
                     />
                 </div>
                 <p className='register-link'>
-                    Don't have an account? <a href='/register'>Register</a>
+                    Don't have an account? <Link to='/register'>Register</Link>
                 </p>
                 <button
                     type='button'
